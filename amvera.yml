@@ -1,0 +1,12 @@
+---
+meta:
+  environment: python
+  toolchain:
+    name: pip
+    version: 3.12
+build:
+  requirementsPath: requirements.txt
+run:
+  scriptName: Suslik_3D_Bot.py
+  persistenceMount: /data
+  containerPort: 80
